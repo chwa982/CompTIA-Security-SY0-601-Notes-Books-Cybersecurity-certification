@@ -17,3 +17,4 @@ Step 1: Download: exam objectives PDF https://www.comptia.jp/pdf/CompTIA%20Secur
         
         Section 4 - 14% - Operations and Incident Response - 16% Section 5.0 - Governance, Risk, and Compliance
 
+A
