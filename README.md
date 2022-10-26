@@ -19,7 +19,7 @@ Step 2: 2 days - 2 weeks. Find your favorite (free) resources.
      
        Check online at YouTube, GitHub, Medium, Reddit (with a grain of salt), LibGen, Google.
      
-       Check local libraries. Some offer free access to paid learning services like LinkedIn Learning.
+       Check local libraries. Some offer free access to paid services like LinkedIn Learning.
 
 
 Studying: read -> recognize -> define -> understand -> apply. Bonus if you practice "labs" or practice in real life.
