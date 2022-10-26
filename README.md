@@ -21,6 +21,8 @@ Step 2: 2 days - 2 weeks. Find your favorite (free) resources.
      
        Check local libraries. Some offer free access to paid services like LinkedIn Learning.
 
+Step 3: Learn. Learn. Learn. Be obsessed, and think in terms of info tech/sec.
+
 
 Studying: read -> recognize -> define -> understand -> apply. Bonus if you practice "labs" or practice in real life.
 
