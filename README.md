@@ -17,7 +17,7 @@ Step 1: ~45 min: Plan & Map: S+ Exam Objectives at https://www.comptia.jp/pdf/Co
         
         Section 4 - 14% - Operations and Incident Response - 16% Section 5.0 - Governance, Risk, and Compliance
 
-Step 2: 2 hrs - 2 weeks. Find your favorite (free) resources. 
+Step 2: 2 days - 2 weeks. Find your favorite (free) resources. 
      Check online at YouTube, GitHub, Medium, Reddit (with a grain of salt), LibGen, Google.
      Check local libraries. Some offer free access to paid learning services like LinkedIn Learning.
 
