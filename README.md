@@ -30,3 +30,5 @@ Official link for CompTIA S+: https://www.comptia.org/certifications/security
 
 Optional: Watch Mr. Robot to get good (serious) (if you are into ethical *hacking*).
 
+Checkin 11/15/2022
+
