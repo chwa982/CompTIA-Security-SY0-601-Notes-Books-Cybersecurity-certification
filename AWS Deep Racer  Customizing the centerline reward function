@@ -32,7 +32,7 @@ def reward_function(params):
 
     return float(reward)
 
-
+Code Walkthrough:
 First, you need to define a function. Here it is called reward_function, and takes in a single parameter called params. Params is a dictionary defined by the AWS DeepRacer service. A dictionary is a special type of Python data type made of up of key-value pairs.
 Step 1/8
 Here you choose two keys, track_width and distance_from_center. Both return another Python datatype called a float. Each key is also assigned a variable.
