@@ -1,0 +1,53 @@
+AWS Deep Racer 
+Customizing the centerline reward function
+
+def reward_function(params):
+
+    # Example of rewarding the agent to follow center line
+
+    # Read input parameters
+
+    track_width = params['track_width']
+    distance_from_center = params['distance_from_center']
+
+    # Calculate 3 markers that are at varying distances away from the center line
+
+    marker_1 = 0.1 * track_width
+    marker_2 = 0.25 * track_width
+    marker_3 = 0.5 * track_width
+
+    # Give higher reward if the car is closer to center line and vice versa
+    if distance_from_center <= marker_1:
+
+        reward = 1.0
+    elif distance_from_center <= marker_2:
+
+        reward = 0.5
+    elif distance_from_center <= marker_3:
+
+        reward = 0.1
+    else:
+        reward = 1e-3 # likely crashed/ close to off track
+
+
+    return float(reward)
+
+
+First, you need to define a function. Here it is called reward_function, and takes in a single parameter called params. Params is a dictionary defined by the AWS DeepRacer service. A dictionary is a special type of Python data type made of up of key-value pairs.
+Step 1/8
+Here you choose two keys, track_width and distance_from_center. Both return another Python datatype called a float. Each key is also assigned a variable.
+Step 2/8
+This block of code divides the width of the track into three zones using the marker variable. Each zone is increasingly larger.
+Step 3/8
+
+This if statement uses the other dictionary key, distance_from_center and marker_1 to define the reward for staying in the narrowest zone. Because this behavior is optimal it is assigned the highest value reward, reward = 1.0.
+Step 4/8
+This elif statement is similar except we have expanded the zone slightly by using marker_2. Because this behavior is slightly less than optimal it is assigned a slightly lower reward value, reward = 0.5.
+Step 5/8
+This elif statement is similar to the previous two except the zone size is even larger, and therefore it is assigned an even lower reward value, reward = 0.1.
+Step 6/8
+This else statement is called if none of the above conditions are met, which means the car has likely neared the edge or ran off the track. The smallest reward is used in this case, reward = 0.001
+Step 7/8
+
+Now you use a return statement to return the current value of the reward variable.
+Step 8/8
